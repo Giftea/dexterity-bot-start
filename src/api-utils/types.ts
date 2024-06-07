@@ -6,4 +6,4 @@ export type Trade = {
   maker: string;
   taker: string;
   price: number;
-};
+  };
