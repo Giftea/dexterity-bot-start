@@ -32,8 +32,10 @@ export const app = async () => {
         case "/process-trade":
           break;
         case "/new-subscription":
+          response = await handleNewSubscription(trader, manifest, searchParams.get("trg"), AppState)
           break;
         case "/cancel-subscription":
+          response = await handleCancelSubscription(AppState)
           break;
         default:
           break;
