@@ -3,6 +3,7 @@
   "author": "dayblox",
   "description": "Bun + TypeScript starter",
   "devDependencies": {
+    "@types/node": "^20.14.2",
     "bun-types": "latest"
   },
   "scripts": {
